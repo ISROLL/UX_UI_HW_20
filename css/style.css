@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Logo {
+display: inline-block;
+vertical-align: top;
+}
+
+nav {
+    width: 60%;
+    flex-wrap: nowrap;
+    display: flex;
+    padding: 1%;
+    text-align: right;
+}
+
+.nav-item{
+    font-size: 27px;
+    padding: 0% 2% ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 2%;
+    background-color: gray;
+}
+
+.social-media{
+    display: flex;
+    margin: 0% 2%;
+}
